@@ -1,5 +1,15 @@
 /*@import url(http://fonts.googleapis.com/css?family=Montserrat:400,300,200,500,600,700,100);*/
 
+@font-face {
+  font-family: Oak;
+  src: url("../fonts/Oak-Bold.ttf");
+}
+
+@font-face {
+  font-family: Ancillary;
+  src: url("../fonts/Ancillary-Regular.otf");
+}
+
 body, html{
 	height: 100%;
 	margin: 0;
@@ -15,8 +25,8 @@ body {
 }
 
 #container{	display:none; }
+
 .menuBar {
-	/*width: 100%;*/
 	display: block;
 	position: absolute;
 	top: 0;
@@ -77,8 +87,9 @@ body {
     color: #fff;
     padding-left: 260px;
     padding-top: 250px;
-
 }
+
+
 
 
 h1 {
@@ -138,9 +149,9 @@ input, textarea {
     transition: all 0.6s ease;
     resize: none;
     border-radius: 0;
-	font-family:"Ancillary";
-	font-style:italic;
-	font-size:14px;
+	 font-family:"Ancillary";
+	 font-style:italic;
+	 font-size:14px;
 	
 }
 
@@ -247,6 +258,9 @@ textarea:focus {
 	color:#fff;
 	font-weight:100;
 	font-size:12px;
+  position: fixed;
+  margin-bottom: 0px;
+  width: 100%;
 	
 }
 strong {
